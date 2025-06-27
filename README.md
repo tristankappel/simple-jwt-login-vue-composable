@@ -1,13 +1,19 @@
-# 🧩 useSimpleJWTLogin
+# Simple JWT Login – Vue Composable
 
-A tiny Vue/Nuxt composable to handle **login and registration** with a **headless WordPress** backend using the [Simple JWT Login](https://simplejwtlogin.com/) plugin.
+This is a Vue composable for authenticating users via the [Simple-JWT-Login](https://wordpress.org/plugins/simple-jwt-login/) plugin on a headless WordPress site.  
+It supports login, registration, password reset, secure cookie handling, and CSRF protection using WordPress REST API endpoints.
 
-This composable uses the official [Simple JWT Login JS SDK](https://github.com/simple-jwt-login/js-sdk) under the hood.
+> 🧪 Designed for modern Vue 3 or Nuxt 3 apps using the Composition API.
 
-## 🚀 Features
+---
 
-- 🔐 Login to your WordPress site from your Vue/Nuxt app  
-- 📝 Register new users  
-- ✅ Simple integration via a composable function  
-- 🔄 Works with any WordPress backend that uses the Simple JWT Login plugin
+## ✨ Features
 
+- 🔐 Authenticate via JWT and Simple-JWT-Login
+- 📝 Register and reset passwords via REST
+- 🍪 Automatically manage JWT and CSRF cookies
+- 🔄 Logout and invalidate sessions
+- 🛡️ CSRF protection for state-changing requests
+- 💾 Stores auth state in `localStorage` and cookies
+
+---
