@@ -1,4 +1,4 @@
-import { SimpleJwtLogin } from 'simple-jwt-login'
+import { SimpleJwtLogin, type AuthenticateInterface, type RegisterUserInterface, type ResetPasswordInterface, type ChangePasswordInterface  } from 'simple-jwt-login'
 
 const AUTH_CODE = 'YOUR_AUTH_CODE'
 const WP_URL = 'YOUR_WP_URL'
